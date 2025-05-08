@@ -4,8 +4,6 @@ from utils import save_uploaded_file, export_results
 import pandas as pd
 import os
 
-sys.path.append(os.path.dirname(__file__))
-
 st.set_page_config(page_title="Emotion AI", layout="centered")
 
 st.title("Detector de Emoções com DeepFace")
