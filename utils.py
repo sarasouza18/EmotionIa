@@ -1,5 +1,6 @@
 import tempfile
 import os
+import pandas as pd
 
 def save_uploaded_file(uploaded_file):
     temp_dir = tempfile.mkdtemp()
@@ -8,5 +9,7 @@ def save_uploaded_file(uploaded_file):
         f.write(uploaded_file.getbuffer())
     return file_path
 
-def export_results(df):
-    df.to_csv("/mnt/data/relatorio_emocoes.csv", index=False)
+def export_results(resultados):
+    df = pd.DataFrame(resultados)
+    df.to_csv("relatorio_emocoes.csv", index=False)
+

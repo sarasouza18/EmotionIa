@@ -1,0 +1,9 @@
+streamlit==1.22.0
+deepface==0.0.79
+tensorflow-cpu==2.11.0
+protobuf==3.19.6
+opencv-python-headless
+matplotlib
+pandas
+seaborn
+scikit-learn
