@@ -17,9 +17,9 @@ pip install -r requirements_colab.txt
 streamlit run main.py
 ```
 
-## Deploy na nuvem
+## Acessar na nuvem
 
-Utilize `requirements.txt` (baseado no `requirements_streamlit.txt`) e conecte este repositório ao [Streamlit Cloud](https://share.streamlit.io).
+https://emotionia-1qsv.onrender.com/
 
 ## Estrutura
 
